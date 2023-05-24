@@ -1,0 +1,9 @@
+<form>
+    <div>
+        <label for="onomatopia">Entrez une nouvelle onomatopée : </label>
+        <input type="text" name="onomatopia" id="onomatopia" [(ngModel)]="onomatopia">
+    </div>
+    <div>
+        <button type="submit" (click)="sendDataToParent()">Envoyer l'onomatopée au parent</button>
+    </div>
+</form>
